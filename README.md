@@ -8,6 +8,7 @@ Computer with Vivado or any Verilog simulation software.
 Verilog HDL compiler.
 
 // Verilog Code
+```
 module full_adder(
     input a,
     input b,
@@ -55,12 +56,12 @@ module testbench_ripple_carry_adder;
         $finish;
     end
 endmodule
-
+```
 
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/1213fe95-e1e6-4105-a76d-de811be9f859">
 
 // Verilog Code ripple counter
-
+```
 module ripple_counter(
     input clk,
     input reset,
@@ -107,6 +108,7 @@ module testbench_ripple_counter;
         $finish;
     end
 endmodule
+```
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/1b84f81c-b228-4585-9911-f0a27f8b927d">
 
 Conclusion:
